@@ -57,7 +57,7 @@ def modify_img(num,org_img_add):
 
     #If a proper image is not selected then a error message prompts
     if(check_if_empty(org_img_add)):
-        return
+        return #simply return here without processing further
 
     #Reading the Image
     org_img = cv2.imread(org_img_add)
